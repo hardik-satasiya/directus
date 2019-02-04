@@ -276,6 +276,7 @@ return array(
     'Directus\\Exception\\Exception' => $baseDir . '/src/core/Directus/Exception/Exception.php',
     'Directus\\Exception\\ForbiddenException' => $baseDir . '/src/core/Directus/Exception/ForbiddenException.php',
     'Directus\\Exception\\ForbiddenExceptionInterface' => $baseDir . '/src/core/Directus/Exception/ForbiddenExceptionInterface.php',
+    'Directus\\Exception\\ForbiddenLastAdminException' => $baseDir . '/src/core/Directus/Exception/ForbiddenLastAdminException.php',
     'Directus\\Exception\\Http\\Auth\\ForbiddenException' => $baseDir . '/src/core/Directus/Exception/Http/Auth/ForbiddenException.php',
     'Directus\\Exception\\Http\\BadRequestException' => $baseDir . '/src/core/Directus/Exception/Http/BadRequestException.php',
     'Directus\\Exception\\Http\\NotFoundException' => $baseDir . '/src/core/Directus/Exception/Http/NotFoundException.php',

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324
+class ComposerStaticInitbb38dd23d58670f25f6a2ec62e68d48c
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -606,6 +606,7 @@ class ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324
         'Directus\\Exception\\Exception' => __DIR__ . '/../..' . '/src/core/Directus/Exception/Exception.php',
         'Directus\\Exception\\ForbiddenException' => __DIR__ . '/../..' . '/src/core/Directus/Exception/ForbiddenException.php',
         'Directus\\Exception\\ForbiddenExceptionInterface' => __DIR__ . '/../..' . '/src/core/Directus/Exception/ForbiddenExceptionInterface.php',
+        'Directus\\Exception\\ForbiddenLastAdminException' => __DIR__ . '/../..' . '/src/core/Directus/Exception/ForbiddenLastAdminException.php',
         'Directus\\Exception\\Http\\Auth\\ForbiddenException' => __DIR__ . '/../..' . '/src/core/Directus/Exception/Http/Auth/ForbiddenException.php',
         'Directus\\Exception\\Http\\BadRequestException' => __DIR__ . '/../..' . '/src/core/Directus/Exception/Http/BadRequestException.php',
         'Directus\\Exception\\Http\\NotFoundException' => __DIR__ . '/../..' . '/src/core/Directus/Exception/Http/NotFoundException.php',
@@ -3028,10 +3029,10 @@ class ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit3b463ea043ba6b29a86a9e45adc63324::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbb38dd23d58670f25f6a2ec62e68d48c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbb38dd23d58670f25f6a2ec62e68d48c::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitbb38dd23d58670f25f6a2ec62e68d48c::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitbb38dd23d58670f25f6a2ec62e68d48c::$classMap;
 
         }, null, ClassLoader::class);
     }
